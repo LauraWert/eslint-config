@@ -30,6 +30,7 @@ module.exports = {
     },
     {
       files: ['**/*.ts', '**/*.tsx', '**/*.vue'],
+      excludedFiles: "*.js.vue",
       rules: {
         ...typescriptEslintRecommended.rules,
         '@typescript-eslint/array-type': 'error',
