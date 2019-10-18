@@ -162,6 +162,6 @@ module.exports = {
     'vue/script-indent': ['error', 2],
     // 'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': ['error', { 'words': true, 'nonwords': false }],
-    'vue/v-on-function-call': 'error',
+    // buggy 'vue/v-on-function-call': 'error',
   },
 }
