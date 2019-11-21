@@ -64,6 +64,7 @@ module.exports = {
         '@typescript-eslint/prefer-function-type': 'error',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/semi': ['error', 'never'],
         '@typescript-eslint/typedef': [
           'error',
           {
